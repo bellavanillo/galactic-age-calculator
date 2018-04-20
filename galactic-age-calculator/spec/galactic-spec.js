@@ -6,4 +6,5 @@ describe('Birthdate', function(){
     let birthdate = new Birthdate();
     expect(birthdate.secondsAge(15)).toEqual(473040000)
   });
+  
 });
