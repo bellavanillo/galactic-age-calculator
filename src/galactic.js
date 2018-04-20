@@ -1,7 +1,7 @@
 export class Birthdate {
   constructor(age) {
     this.age = age;
-}
+  }
   secondsAge(age){
     let yearSeconds = (age * 31536000);
     return yearSeconds;
@@ -31,9 +31,17 @@ export class Birthdate {
   expectancyMan(age){
     let manAge = (78);
     return manAge;
-    }
-    expectancyWoman(age){
-      let womanAge = (81);
-      return womanAge;
-    }
+  }
+  expectancyWoman(age){
+    let womanAge = (81);
+    return womanAge;
+  }
+  lifeMan(age){
+    let leftoverMan = (78 - age);
+    return leftoverMan;
+  }
+  lifeWoman(age){
+    let leftoverWoman = (81 - age);
+    return leftoverWoman;
+  }
 }

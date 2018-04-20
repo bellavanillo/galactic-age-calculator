@@ -34,4 +34,12 @@ describe('Birthdate', function(){
     let birthdate = new Birthdate();
     expect(birthdate.expectancyWoman(81)).toEqual(81);
   });
+  it('should calculate the life expectancy left over for a man', function(){
+    let birthdate = new Birthdate();
+    expect(birthdate.lifeMan(15)).toEqual(63);
+  });
+  it('should calculate the life expectancy left over for a woman', function(){
+    let birthdate = new Birthdate();
+    expect(birthdate.lifeWoman(15)).toEqual(66);
+  });
 });
