@@ -1,9 +1,9 @@
 import { Birthdate } from './../src/galactic.js';
 
-describe('Birthdate'), function(){
+
+describe('Birthdate', function(){
   it('should calculate the age of someone into seconds', function(){
     let birthdate = new Birthdate();
-    expect(Birthdate.secondsAge(10)).toEqual(315360000);
+    expect(birthdate.secondsAge(15)).toEqual(473040000)
   });
-
-};
+});
