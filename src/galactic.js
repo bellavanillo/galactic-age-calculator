@@ -2,7 +2,6 @@ export class Birthdate {
   constructor(age) {
     this.age = age;
 }
-
   secondsAge(age){
     let yearSeconds = (age * 31536000);
     return yearSeconds;
@@ -29,13 +28,12 @@ export class Birthdate {
     let diffDate = (currentTime - randomDate);
     return diffDate;
   }
-  // lifeExpectancy(age){
-  //   let yearsLeftMan = (age/78 * 78);
-  //   let yearsLeftWoman = (age/81 *81);
-  //   if ("#gender" === "man") {
-  //     return yearsLeftMan;
-  //   } else if ("#gender" === "woman") {
-  //     return yearsLeftWoman;
-  //   }
-  // }
+  expectancyMan(age){
+    let manAge = (78);
+    return manAge;
+    }
+    expectancyWoman(age){
+      let womanAge = (81);
+      return womanAge;
+    }
 }

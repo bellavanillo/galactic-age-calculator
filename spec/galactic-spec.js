@@ -22,12 +22,16 @@ describe('Birthdate', function(){
     let birthdate= new Birthdate();
     expect(birthdate.ageJupiter(15)).toEqual(1);
   });
-  // it('should calculate the life expectancy of someone based on their gender', function(){
-  //   let birthdate= new Birthdate();
-  //   expect(birthdate.lifeExpectancy(15)).toEqual(78);
-  // });
+  it('should calculate the life expectancy of someone based on if they are male', function(){
+    let birthdate = new Birthdate();
+    expect(birthdate.expectancyMan(78)).toEqual(78);
+  });
   it('should calculate the seconds between two days', function(){
     let birthdate= new Birthdate();
     expect(birthdate.differenDate("April 20, 2018 03:45:00", "March 13, 1997 03:45:00")).toEqual(665967600000);
+  });
+  it('should calculate the life expectancy of someone based on if they are female', function(){
+    let birthdate = new Birthdate();
+    expect(birthdate.expectancyWoman(81)).toEqual(81);
   });
 });
