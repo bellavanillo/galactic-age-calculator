@@ -32,35 +32,35 @@ _html, bootstrap, git, css, javascript_
 ## Specs
 
 * _It should calculate the age of someone into seconds_
-* _Example input: 15_
-* _Example output: 473040000_
+ * _Example input: 15_
+ * _Example output: 473040000_
 * _It should calculate the age of someone on Mercury_
-* _Example input: 15_
-* _Example output: 62_
+ * _Example input: 15_
+ * _Example output: 62_
 * _It should calculate the age of someone on Venus_
-* _Example input: 15_
-* _Example output: 24_
+ * _Example input: 15_
+ * _Example output: 24_
 * _It should calculate the age of someone on Mars_
-* _Example input: 15_
-* _Example output: 7_
+ * _Example input: 15_
+ * _Example output: 7_
 * _It should calculate the age of someone on Jupiter_
-* _Example input: 15_
-* _Example output: 1_
+ * _Example input: 15_
+ * _Example output: 1_
 * _It should calculate the life expectancy of someone based on if they are male_
-* _Example input: male_
-* _Example output: 78_
+ * _Example input: male_
+ * _Example output: 78_
 * _It should calculate the life expectancy of someone based on if they are female_
-* _Example input: female_
-* _Example output: 81_
+ * _Example input: female_
+ * _Example output: 81_
 * _It should calculate the seconds between two days_
-* _Example input: April 20, 2018 03:45:00, March 13, 1997 03:45:00_
-* _Example output: 665967600000_
+ * _Example input: April 20, 2018 03:45:00, March 13, 1997 03:45:00_
+ * _Example output: 665967600000_
 * _It should calculate the life expectancy left over for a man_
-* _Example input: 15_
-* _Example output: 63_
+ * _Example input: 15_
+ * _Example output: 63_
 * _It should calculate the life expectancy left over for a woman_
-* _Example input: 15_
-* _Example output: 66_
+ * _Example input: 15_
+ * _Example output: 66_
 
 
 ### License
