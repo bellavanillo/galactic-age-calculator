@@ -27,7 +27,7 @@ _If you run into any issues or have questions, ideas or concerns, please contact
 
 ## Technologies Used
 
-_html, bootstrap, git, css, javascript_
+_Html, CSS, Git, JavaScript, Karma, ESlint, Jasmine,_
 
 ## Specs
 
